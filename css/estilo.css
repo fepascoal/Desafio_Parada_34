@@ -13,7 +13,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #3a5f6f;
+    background-color: #243757;
 }
 
 #container{
@@ -32,7 +32,7 @@ body{
     flex-direction: column;
     gap: 1.1rem;
     padding: 2rem;
-    background-color: #243757;
+    background-color: #4a74bd;
     border-radius: 8px;
     box-shadow: 5px 5px 15px black;
 }
