@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="js/conversao.js" defer></script>
+        <title>Conversor de temperatura</title>
+    </head>
+    <body>
+        <main id="container">
+            <section id="img">
+                <img src="img/ilustração.png">
+            </section>
+
+            <section id="conversao">
+                <div id="form">
+                    <h1 id="title">Conversor de Temperatura</h1>
+                
+                    <div class="input_box">
+                        <i class="fa-solid fa-temperature-full"></i>
+                        <label for="celsius">Digite a temperatura que deseja converter em Fahrenheit e Kelvin:</label> <br>
+                        <input type="number" id="celsius">
+                    </div>           
+                </div>
+                
+                    <button id="btt" onclick="converterTemperatura()">Converter</button>
+                    <button id="btt" onclick="limpar()">Limpar</button>
+
+                <div id="resp"></div>  
+            </section>
+        </main>
+    </body>
+
+</html>
